@@ -490,7 +490,7 @@ button:hover{
     -webkit-background-clip: text;
 }
 /* ******************************** */
-@media (max-width: 750px) 
+@media (max-width: 480px) 
 {
     /* .navbar {
     font-size: 20px;
@@ -498,6 +498,25 @@ button:hover{
     padding: 10px;
     background-color: aqua;
     }*/
+
+
+    .resume button{
+        width: 200px;
+        height: 50px;
+        text-align: left;
+        position: relative;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0 3px 3px #563dd7;
+        margin-top: 40px;
+        margin-left: -200px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
 
     .about-content{
         /* margin-left: 200px; */
@@ -525,10 +544,11 @@ button:hover{
         font-family: monospace;
         font-size: 20px;
     }
+
     /* *******skills******* */
 
     .skills{
-        margin-top: 1200px;
+        margin-top: 600px;
         margin-left: 100px;
     }
     
@@ -638,7 +658,7 @@ button:hover{
     .con{
         text-align: center;
         /* height: 300px; */
-        margin-top: 200px;
+        margin-top: 300px;
         margin-left: 50px;
     }
     .con button{
@@ -662,6 +682,7 @@ button:hover{
     .con h2{
         font-family: cursive;
         margin-bottom: 50px;
+        margin-left: 50px;
         background: linear-gradient(45deg,#3cf, #f06);
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
