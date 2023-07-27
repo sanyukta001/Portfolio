@@ -640,6 +640,7 @@ button:hover{
     /* ************por**************8 */
     .por{
         text-align: center;
+        margin-top: 200px;
         /* height: 500px; */
 
     }
@@ -658,7 +659,7 @@ button:hover{
     .con{
         text-align: center;
         /* height: 300px; */
-        margin-top: 300px;
+        margin-top: 400px;
         margin-left: 50px;
     }
     .con button{
