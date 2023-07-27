@@ -459,7 +459,7 @@ button:hover{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-/*  */
+/* --------------contact--------------------*/
 .con{
     text-align: center;
     /* height: 300px; */
@@ -489,16 +489,181 @@ button:hover{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
-/*
-@media (max-width: 952px) 
+/* ******************************** */
+@media (max-width: 750px) 
 {
-    .navbar {
+    /* .navbar {
     font-size: 20px;
     font-family: monospace;
     padding: 10px;
     background-color: aqua;
+    }*/
+
+    .about-content{
+        /* margin-left: 200px; */
+        /* margin-top: 100px; */
+        /* height: 400px; */
+        margin-left: 70px;
     }
-    body{
-        color: rgb(43, 131, 207);
+    .about-content h2{
+        font-family: cursive;
+        font-size: 25px;
+        font-weight: 600;
+        margin-left: 200px;
+        line-height: 1.2;
+        background: linear-gradient(45deg,#f06,#3cf);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
     }
-} */
+    .about-content p{
+        max-width: 700px;
+        /* font-size: 16px; */
+        margin-left: 50px;
+        margin-top: 70px;
+        text-align: center;
+        justify-content: space-between;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    /* *******skills******* */
+
+    .skills{
+        margin-top: 1200px;
+        margin-left: 100px;
+    }
+    
+    .skills h1{
+        background: linear-gradient(45deg,#3cf, #f06);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-family: cursive;
+        text-align: center;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+    
+    .skill-content {
+        padding: 0 5rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-basis: 50%;
+        flex-wrap: wrap;
+    }
+
+    .skill{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+        border: #fff solid 0.2px;
+        border-radius: 20px;
+        /* margin: 2.5rem; */
+        /* width: 400px; */
+        padding-left: 1rem;
+        background-color: hwb(0 17% 80% / 0.437)
+    }
+    
+    
+    .bar{
+        /* position: relative; */
+        border: 1px solid #fff;
+        margin-right: 30px;
+        border-radius: 10px;
+        width: 300px;
+        height: 14px;
+    }
+    
+    .bar div{
+        position: relative;
+        width: 0;
+        height: 11px;
+        border-radius: 10px;
+        background: linear-gradient(45deg,#3cf, #f06);
+        -webkit-text-fill-color: transparent;
+    }
+    /*88****************** Edu *******************8888*/
+    .edu{
+        margin-top: 100px;
+        /* align-items: center; */
+        text-align: center;
+        /* height: 800px; */
+        margin-left: 10px;
+    }
+    .edu h2{
+        margin-left: 100px;
+        background: linear-gradient(45deg,#3cf, #f06);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        font-family: cursive;
+        margin-top: 20px;
+        margin-bottom: 100px;
+    }
+    .edu h3, .edu li, .edu h6, .por li, .por h4, .por h6 {
+        font-family: cursive;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 100px;
+    }
+    .edu p, .por p{
+        margin-top: 20px;
+        max-width: 700px;
+        margin-bottom: 10px;
+        align-items: center;
+        text-align: center;
+        margin-left: 100px;
+        justify-content: space-between;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    /* ************por**************8 */
+    .por{
+        text-align: center;
+        /* height: 500px; */
+
+    }
+    /* .por h4, .por h6{
+        margin-left: 100px;
+    } */
+    .por h2{
+        font-family: cursive;
+        margin-bottom: 50px;
+        margin-left: 150px;
+        background: linear-gradient(45deg,#3cf, #f06);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+    /* --------------contact--------------------*/
+    .con{
+        text-align: center;
+        /* height: 300px; */
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    .con button{
+        margin-left: 50px;
+        width: 400px;
+        height: 50px;
+        text-align: left;
+        position: relative;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        box-shadow: 0 3px 3px #aaa;
+        margin-top: 40px;
+        font-size: 20px;
+        font-weight: bold;
+        color: #333;
+        padding-left: 20px;
+        box-sizing: border-box;
+    }
+    
+    .con h2{
+        font-family: cursive;
+        margin-bottom: 50px;
+        background: linear-gradient(45deg,#3cf, #f06);
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+    }
+}
