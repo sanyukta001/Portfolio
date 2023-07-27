@@ -595,18 +595,137 @@ button:hover{
         border: 1px solid #fff;
         margin-right: 30px;
         border-radius: 10px;
-        width: 500px;
-        height: 14px;
+        height: 500px;
+        width: 14px;
     }
     
     .bar div{
         position: relative;
-        width: 0;
-        height: 11px;
+        height: 0;
+        width: 11px;
         border-radius: 10px;
         background: linear-gradient(45deg,#3cf, #f06);
         -webkit-text-fill-color: transparent;
     }
+    #java-bar{
+        animation: java-fill 2s forwards;
+    }
+    
+    @keyframes java-fill {
+        100%{
+            height: 85%;
+        }
+    }
+    #kot-bar{
+        animation: kot-fill 2s forwards;
+    }
+    
+    @keyframes kot-fill {
+        100%{
+            height: 40%;
+        }
+    }
+    
+    #html-bar{
+        animation: html-fill 2s forwards;
+    }
+    
+    @keyframes html-fill {
+        100%{
+            height: 90%;
+        }
+    }
+    
+    #css-bar{
+        animation: css-fill 2s forwards;
+    }
+    
+    @keyframes css-fill {
+        100%{
+            height: 75%;
+        }
+    }
+    
+    #js-bar{
+        animation: js-fill 2s forwards;
+    }
+    
+    @keyframes js-fill {
+        100%{
+            height: 50%;
+        }
+    }
+    
+    #react-bar{
+        animation: react-fill 2s forwards;
+    }
+    
+    @keyframes react-fill {
+        100%{
+            height: 20%;
+        }
+    }
+    
+    #c-bar{
+        animation: c-fill 2s forwards;
+    }
+    
+    @keyframes c-fill {
+        100%{
+            height: 70%;
+        }
+    }
+    /* professional*/
+    
+    #conn-bar{
+        animation: conn-fill 2s forwards;
+    }
+    
+    @keyframes conn-fill {
+        100%{
+            height: 85%;
+        }
+    }
+    
+    #tw-bar{
+        animation: tw-fill 2s forwards;
+    }
+    
+    @keyframes tw-fill {
+        100%{
+            height: 90%;
+        }
+    }
+    
+    #mng-bar{
+        animation: mng-fill 2s forwards;
+    }
+    
+    @keyframes mng-fill {
+        100%{
+            height: 70%;
+        }
+    }
+    
+    #cr-bar{
+        animation: cr-fill 2s forwards;
+    }
+    
+    @keyframes cr-fill {
+        100%{
+            height: 60%;
+        }
+    }
+    
+    #comm-bar{
+        animation: comm-fill 2s forwards;
+    }
+    @keyframes comm-fill {
+        100%{
+            height: 80%;
+        }
+    }
+    
     /*88****************** Edu *******************8888*/
     .edu{
         margin-top: 100px;
