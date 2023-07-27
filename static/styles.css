@@ -553,7 +553,9 @@ button:hover{
         margin-top: 800px;
         margin-left: 100px;
     }
-    
+    .espace{
+        height: 400px;
+    }
     .skills h1{
         background: linear-gradient(45deg,#3cf, #f06);
         -webkit-text-fill-color: transparent;
