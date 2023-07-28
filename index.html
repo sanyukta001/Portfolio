@@ -10,16 +10,40 @@
 <body>
     <div class="header">
         <a href="#" class="logo">Sanyukta</a>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <input type="checkbox" id="nav-check" hidden>
         <div class="navbar">
-            <a href="#" class="active">HOME</a>
-            <a href="#about">ABOUT</a>
-            <a href="#skills">SKILL</a>
-            <a href="#edu">EDUCATION</a>
-            <a href="#por">POR</a>
+            <!-- <div class="ul"> -->
+            <ul>
+            <li><a href="#" class="active">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#skills">SKILL</a></li>
+            <li><a href="#edu">EDUCATION</a></li>
+            <li><a href="#por">POR</a></li>
             <!-- <a href="#">EXPERIENCE</a> -->
-            <a href="#con">CONTACT</a>
+            <Li><a href="#con">CONTACT</a></li>
+            <!-- </div> -->
+            </ul>
         </div> 
+        <!-- <label for="nav-check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label> -->
     </div>
+
+    <script>
+        hamburger = document.querySelector(".hamburger")
+        hamburger.onclick = function(){
+            navbar = document.querySelector(".navbar")
+            navbar.classList.toggle("active");
+        }
+    </script>
+
     <section class="home">
         <div class="home-sci">
             <a href="https://www.facebook.com/profile.php?id=100092277697510"><i class='bx bxl-facebook'></i></a>
