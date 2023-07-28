@@ -837,10 +837,11 @@ button:hover {
         margin-bottom: 100px;
     }
 
-    .edu h3 {
+    .edu h3, .edu li, .edu h6 {
         font-family: cursive;
         margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 30px;
     }
 
     .edu p,
@@ -850,7 +851,7 @@ button:hover {
         margin-bottom: 10px;
         align-items: center;
         text-align: center;
-        margin-left: 100px;
+        margin-left: 90px;
         justify-content: space-between;
         font-family: monospace;
         font-size: 20px;
@@ -858,8 +859,9 @@ button:hover {
 
     /* ------------POR------------- */
     .por {
+        margin-top: 50px;
         text-align: center;
-        height: 500px;
+        /* height: 500px; */
     }
 
     .por h2 {
@@ -873,7 +875,7 @@ button:hover {
 
     /* --------------contact--------------------*/
     .con {
-        margin-top: 180px;
+        margin-top: 300px;
         text-align: center;
         /* height: 300px; */
     }
