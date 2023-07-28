@@ -775,8 +775,8 @@ button:hover {
     }
 
     .skill-content {
-        padding: 0 5rem;
-        display: flex;
+        /* padding: 0 5rem; */
+        display: block;
         justify-content: space-around;
         align-items: center;
         flex-basis: 50%;
