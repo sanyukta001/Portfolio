@@ -765,7 +765,9 @@ button:hover {
         font-size: 20px;
 
     }
-
+    .espace{
+        height: 400px;
+    }
     /*skills*/
 
     .skills {
